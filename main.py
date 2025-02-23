@@ -19,8 +19,9 @@ def predict(input_data):
         return f"Error: {e}"
 
 # Streamlit App UI
-st.title("Animal Migration Prediction App")
-st.markdown("Enter weather parameters to predict animal migration patterns.")
+st.title("Elephants Migration Prediction App")
+st.markdown("Enter weather parameters to predict Elephants migration patterns.")
+st.markdown("from bandipura national park to wayanand wildlife santaury")
 
 # Input Fields
 col1, col2 = st.columns(2)
