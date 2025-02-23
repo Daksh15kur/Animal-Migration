@@ -19,6 +19,7 @@ def predict(input_data):
         return f"Error: {e}"
 
 # Streamlit App UI
+st.image("BG.png", use_column_width=True)
 st.title("Elephants Migration Prediction App")
 st.markdown("Enter weather parameters to predict Elephants migration patterns.")
 st.markdown("from bandipura national park to wayanand wildlife santaury")
