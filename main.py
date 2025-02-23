@@ -19,10 +19,29 @@ def predict(input_data):
         return f"Error: {e}"
 
 # Streamlit App UI
-st.image("BG.png", use_column_width=True)
-st.title("Elephants Migration Prediction App")
-st.markdown("Enter weather parameters to predict Elephants migration patterns.")
-st.markdown("from bandipura national park to wayanand wildlife santaury")
+st.image("BG.png")
+st.markdown(
+    """
+    <style>
+    .centered-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: #2E4053;
+    }
+    .centered-text {
+        text-align: center;
+        font-size: 18px;
+        color: #566573;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown('<p class="centered-title">Elephants Migration Prediction App</p>', unsafe_allow_html=True)
+st.markdown('<p class="centered-text">Enter weather parameters to predict Elephants migration patterns.</p>', unsafe_allow_html=True)
+st.markdown('<p class="centered-text">From Bandipura National Park to Wayanad Wildlife Sanctuary</p>', unsafe_allow_html=True)
 
 # Input Fields
 col1, col2 = st.columns(2)
