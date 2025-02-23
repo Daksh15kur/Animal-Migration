@@ -2,3 +2,7 @@ streamlit==1.25.0
 pandas==2.0.3
 scikit-learn==1.3.0
 pickle5==0.0.12
+sklearn
+scikit-learn
+pandas
+streamlit
